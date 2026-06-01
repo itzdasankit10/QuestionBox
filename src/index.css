@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body, #root {
+    min-height: 100%;
+    background-color: #0f172a;   /* fallback */
+    background-image: linear-gradient(to bottom right, #0f172a, #1f2937);
+}
+
